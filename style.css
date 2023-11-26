@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 75px;
+    background-color: #222;
+    justify-content: space-between;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: "Lato", sans-serif;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+  }
+
+.logo {
+    display: flex;
+    gap: 40px;
+    margin-left: 37px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    margin-right: 37px;
+}
+
+.center {
+    padding-left: calc(50% - 580px);
+    padding-right: calc(50% - 580px);
+}
+
+.top_content {
+    background: #F1E4E6;
+    display: flex;
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+}
+
+.top_main_content {
+    position: relative;
+    overflow: hidden;
+  }
+
+.main_bg_left {
+    width: 50%;
+}
+
+.right_title {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    line-height: 40px;
+    align-items: center;
+}
+
+.brand {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+}
+.fashion {
+    color: #F16D7F;
+    font-size: 32px;
+    font-weight: 700;
+}
+.luxerious {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.gender {
+    gap: 30px;
+    display: flex;
+    margin: 65px 0 30px 0;
+}
+
+.women {
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(0, 0, 0, 0.8)),
+    url(/img/1-for\ women.png);
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 260px;
+    width: 360px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.men {
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(0, 0, 0, 0.8)),
+    url(/img/2-for\ men.png);
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 260px;
+    width: 360px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.kids {
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(0, 0, 0, 0.8)),
+    url(/img/3-for\ kids.png);
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 260px;
+    width: 360px;
+    align-items: center;
+    flex-direction: column;
+}
+.accesories {
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(0, 0, 0, 0.8)),
+    url(/img/4-ACCESORIES.png);
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    height: 180px;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.title2 {
+    color: #F16D7F;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product-box {
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 25px;
+    grid-template-columns: repeat(auto-fit, 360px);
+}
+
+.featured_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 43px 0;
+}
+
+p {
+    width: 315px;
+    color: #5D5D5D;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 25px 1px 16px 1px;
+}
+
+.price {
+    color: #F16D7F;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h5 {
+    color: #9F9F9F;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 6px 0;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    color: #FF6A6A;
+    font-size: 16px;
+    padding: 15px 40px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    border: 1px solid #F26376;
+    background-color: transparent;
+    cursor: pointer;
+    transition: .4s;
+}
+
+@media (max-width: 1024px) {
+    .brand {
+        font-size: 44px;
+    }
+    .fashion {
+        font-size: 24px;
+    }
+    .luxerious {
+        font-size: 24px;
+    }
+
+    .right_title {
+        line-height: 30px;
+    }
+    
+}
+
+
+
