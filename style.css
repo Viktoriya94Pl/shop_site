@@ -237,5 +237,53 @@ h5 {
     
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+    .brand {
+        font-size: 38px;
+    }
+    .fashion {
+        font-size: 20px;
+    }
+    .luxerious {
+        font-size: 20px;
+    }
+    .main_bg_left {
+        display: none;
+    }
+
+    .right_title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .top_content {
+        display: block;
+        padding: 148px 0;
+    }
+    .line {
+        width: 12px;
+        height: 70px;
+    }
+
+    .cabinet, .cart {
+        display: none;
+    }
+
+    .gender, .accesories {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .accesories {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+}
+
 
 
