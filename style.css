@@ -217,8 +217,151 @@ h5 {
     border: 1px solid #F26376;
     background-color: transparent;
     cursor: pointer;
-    transition: .4s;
+    transition: all .3s;
 }
+
+.btn:hover {
+    background-color: #F16D7F;
+    color: white;
+}
+
+.footer {
+    background: #222224;
+}
+.advantages {
+    display: flex;
+    padding-top: 103px;
+    padding-bottom: 103px;
+}
+
+.adv_icons {
+    margin-left: 172px;
+    margin-bottom: 20px;
+}
+
+.adv_text {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.subscribe {
+    background: linear-gradient(#fbfbfb, rgb(235 234 234 / 80%)),url(/img/bg_foooter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 125px;
+    background-position: bottom;
+    
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:150px;
+    padding-top: 90px;
+    text-align: center;
+}
+.girl {
+    margin-bottom: 16px;
+}
+
+.quate {
+    color: #222224;
+    font-size: 20px;
+    width: 358px;
+    font-weight: 400;
+}
+
+.sub {
+    color: #222224;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 167.2%;
+}
+
+.sub2 {
+    color: #222224;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 167.2%;
+    width: 557px;
+}
+
+input.email {
+    background: #E1E1E1;
+    border: none;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    margin-left: 114px;
+    padding: 13px 37px;
+    display: flex;
+}
+
+.footer {
+    position: relative;
+}
+
+.subscribe {
+    position: relative;
+}
+
+.footer__icons {
+    position: relative;
+}
+
+.btn_subscribe {
+    border: none;
+    background: #E05C6E;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    padding: 13px 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+}
+
+
+.text_icons {
+    display: flex;
+    justify-content: center;
+    background: #222224;
+    color: #FBFBFB;
+    padding: 30px;
+    gap: 655px;
+}
+
+.only_icons {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+.square {
+    width: 32px;
+    height: 32px;
+    background: white;
+    display: flex;
+    align-items: center;
+    align-content: stretch;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.square:hover {
+    background-color: #F16D7F;
+    fill: white;
+}
+
+.rights {
+    font-size: 16px;
+    color: #FBFBFB;
+    font-weight: 400;
+}
+
 
 @media (max-width: 1024px) {
     .brand {
@@ -233,6 +376,28 @@ h5 {
 
     .right_title {
         line-height: 30px;
+    }
+
+    .advantages {
+        flex-direction: column;
+        text-align: center;
+        width: 321px;
+        margin-left: 230px;
+        gap: 43px;
+    }
+
+    .info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text_icons {
+        gap: 240px;
+    }
+
+    .adv_icons {
+        margin: 0;
+        margin-bottom: 18px;
     }
     
 }
@@ -281,6 +446,19 @@ h5 {
         align-items:center;
         margin-left: 32px;
         margin-right: 32px;
+    }
+
+    .text_icons {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 36px;
+        align-items: center;
+    }
+
+    .advantages {
+        margin-left: 58px;
+        gap: 43px;
+
     }
 
 }
